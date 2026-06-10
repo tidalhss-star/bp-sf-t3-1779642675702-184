@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="bpaas-design-system" content="editorial-apple">
+  <meta name="bpaas-design-theme" content="kr-noir-gold">
+  <title>마포 셔츠룸 | 성우이벤트 블로그 — 형님들만 아는 썰</title>
+  <meta name="description" content="마포 셔츠룸, 성우이벤트의 끝판왕. 010-6279-0862. 진짜 형님들은 셔츠룸에서 이렇게 논다. 마포 셔츠룸의 숨은 룰, 팁, 그리고 현장감 있는 후기.">
+  <meta name="keywords" content="마포 셔츠룸, 마포구 셔츠룸, 성우이벤트, 마포 셔츠룸 추천, 마포 셔츠룸 가격, 홍대 셔츠룸, 마포 유흥, 마포 이벤트, 셔츠룸 후기, 셔츠룸 블로그">
+  <link rel="canonical" href="https://sf-t3-1779642675702-184.vercel.app/blog">
+  <meta property="og:title" content="마포 셔츠룸 | 성우이벤트 끝판왕 블로그">
+  <meta property="og:description" content="마포 셔츠룸, 성우이벤트의 새로운 기준. 010-6279-0862. 마포구에서 가장 편안하고 프라이빗한 셔츠룸. 당신의 밤을 완성하는 단 하나의 공간. 예약은 전화 한 통으로.">
+  <style>
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0b0a0c;
+      color: #eae6df;
+      line-height: 1.6;
+      font-weight: 300;
+      letter-spacing: 0.01em;
+    }
+
+    /* ===== LAYOUT ===== */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    /* ===== HEADER & NAV ===== */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(11, 10, 12, 0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+      padding: 16px 0;
+    }
+    nav {
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .logo {
+      font-size: 1.8rem; font-weight: 700; letter-spacing: 2px;
+      background: linear-gradient(135deg, #d4af37, #f5e6b0);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-transform: uppercase;
+    }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a {
+      color: #c9c3b5; text-decoration: none; font-size: 0.9rem;
+      font-weight: 400; text-transform: uppercase; letter-spacing: 1px;
+      transition: color 0.2s, border-bottom 0.2s;
+      padding-bottom: 4px; border-bottom: 1px solid transparent;
+    }
+    .nav-links a:hover { color: #d4af37; border-bottom-color: #d4af37; }
+    .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
+    .hamburger span { width: 28px; height: 2px; background: #d4af37; border-radius: 2px; }
+
+    /* ===== HERO (블로그 헤더) ===== */
+    .hero {
+      position: relative;
+      min-height: 40vh;
+      display: flex; align-items: center; justify-content: center;
+      text-align: center;
+      background: radial-gradient(circle at 30% 40%, #1e1a1c, #0b0a0c 80%);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" opacity="0.05"><path fill="%23d4af37" d="M70 40 L90 20 L110 40 L130 30 L120 60 L140 80 L110 90 L100 120 L80 100 L50 110 L60 80 L40 60 L60 50 Z"/></svg>') repeat;
+      background-size: 180px 180px;
+      mix-blend-mode: overlay;
+    }
+    .hero-content { position: relative; z-index: 2; max-width: 800px; padding: 40px 20px; }
+    .hero h1 {
+      font-size: 3.2rem; font-weight: 700; letter-spacing: 3px;
+      background: linear-gradient(180deg, #f5e6b0, #b4944a);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 20px; text-transform: uppercase;
+    }
+    .hero p {
+      font-size: 1.2rem; color: #b7ae9e; max-width: 600px; margin: 0 auto 24px;
+      font-weight: 300; letter-spacing: 0.5px;
+    }
+    .hero .tel-link {
+      display: inline-block; margin-top: 8px;
+      font-size: 1.6rem; font-weight: 600; color: #d4af37;
+      text-decoration: none; border: 1px solid #d4af37;
+      padding: 12px 32px; border-radius: 40px;
+      background: rgba(212, 175, 55, 0.05);
+      transition: background 0.3s, transform 0.2s;
+    }
+    .hero .tel-link:hover { background: rgba(212, 175, 55, 0.15); transform: scale(1.02); }
+
+    /* ===== 블로그 포스트 ===== */
+    .blog-post {
+      padding: 60px 0 80px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .blog-post .meta {
+      display: flex; gap: 16px; align-items: center;
+      color: #8f887c; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;
+      margin-bottom: 24px; border-bottom: 1px solid #2a2629; padding-bottom: 16px;
+    }
+    .blog-post .meta span { background: rgba(212, 175, 55, 0.1); padding: 4px 12px; border-radius: 20px; }
+    .blog-post h2 {
+      font-size: 2.4rem; font-weight: 600; line-height: 1.3;
+      margin-bottom: 24px; color: #f0e8d8;
+      border-left: 4px solid #d4af37; padding-left: 20px;
+    }
+    .blog-post h3 {
+      font-size: 1.6rem; font-weight: 500; margin-top: 48px; margin-bottom: 16px;
+      color: #e0d4c0; letter-spacing: 0.5px;
+    }
+    .blog-post p {
+      font-size: 1.1rem; margin-bottom: 20px; color: #d4cdc0;
+    }
+    .blog-post strong { color: #d4af37; font-weight: 500; }
+    .blog-post .highlight-box {
+      background: rgba(212, 175, 55, 0.06);
+      border-left: 6px solid #d4af37;
+      padding: 24px 28px; margin: 32px 0; border-radius: 0 12px 12px 0;
+    }
+    .blog-post .highlight-box p { margin-bottom: 8px; }
+    .blog-post .number-list {
+      list-style: none; counter-reset: custom-counter;
+      margin: 24px 0 32px;
+    }
+    .blog-post .number-list li {
+      counter-increment: custom-counter;
+      margin-bottom: 18px; padding-left: 48px; position: relative;
+      font-size: 1.05rem; color: #cfc6b6;
+    }
+    .blog-post .number-list li::before {
+      content: counter(custom-counter);
+      position: absolute; left: 0; top: -2px;
+      background: #d4af37; color: #0b0a0c;
+      font-weight: 700; font-size: 1rem;
+      width: 32px; height: 32px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .blog-post hr {
+      border: none; border-top: 1px solid #2a2629; margin: 48px 0;
+    }
+    .blog-post .cta-end {
+      text-align: center; margin-top: 56px; padding: 32px;
+      background: rgba(212, 175, 55, 0.04); border-radius: 20px;
+      border: 1px solid rgba(212, 175, 55, 0.2);
+    }
+    .blog-post .cta-end a {
+      color: #d4af37; font-size: 1.8rem; font-weight: 600;
+      text-decoration: none; border-bottom: 2px solid #d4af37;
+    }
+
+    /* ===== FOOTER (심플) ===== */
+    footer {
+      border-top: 1px solid #1f1c1e; padding: 32px 0; text-align: center;
+      color: #6b6358; font-size: 0.85rem; letter-spacing: 0.5px;
+    }
+
+    /* ===== 반응형 768px ===== */
+    @media (max-width: 768px) {
+      .nav-links { display: none; flex-direction: column; background: #161416; position: absolute; top: 70px; right: 20px; padding: 20px; border-radius: 12px; border: 1px solid #2f2b2d; gap: 16px; min-width: 200px; }
+      .nav-links.active { display: flex; }
+      .hamburger { display: flex; }
+      .hero h1 { font-size: 2.2rem; }
+      .hero .tel-link { font-size: 1.2rem; padding: 10px 24px; }
+      .blog-post h2 { font-size: 1.8rem; }
+      .blog-post { padding: 40px 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">⟡ 마포셔츠룸</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">홈</a></li>
+        <li><a href="/about">어바웃</a></li>
+        <li><a href="/blog">블로그</a></li>
+        <li><a href="/contact">콘택트</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>블로그 · 형님들 썰</h1>
+    <p>마포 셔츠룸, 성우이벤트의 내부 사정. 찐한얘기만.</p>
+    <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+  </div>
+</section>
+
+<main class="container">
+  <article class="blog-post">
+    <div class="meta">
+      <span>2025-04-14</span>
+      <span>by 운영자 형</span>
+      <span>#마포셔츠룸 #성우이벤트</span>
+    </div>
+
+    <h2>“셔츠룸? 그냥 가면 호구된다.”<br>마포에서 진짜 즐기는 법 (내부고발)</h2>
+
+    <p>형들. 셔츠룸 처음 갈 때 좀 떨리지? 근데 인터넷에 떠도는 후기 반은 거르라. <strong>마포 셔츠룸</strong> 중에서도 특히 <strong>성우이벤트</strong>라는 키워드에 낚여서 들어갔다가 “이게 끝?” 하고 실망하는 사람들 수두룩하다. 내가 오늘 까발리는 건 그런 가짜 정보 싹 씹어먹는, 진짜 형들만 아는 플레이.</p>
+
+    <p>일단 결론부터 박는다. <strong>마포 셔츠룸 추천</strong>이라는 검색어로 나오는 업소 중에 반은 광고다. 특히 야간에 뜨는 후기글은 90%가 알바. 근데 내가 지금 쓰는 이건 알바 아니다. 그냥 내 경험과 내 입에서 나오는 팩트다.</p>
+
+    <div class="highlight-box">
+      <p><strong>✔️ 핵심 요약</strong></p>
+      <p>성우이벤트의 퀄리티는 셔츠룸의 <strong>매니저 운영 시스템</strong>이 결정한다. 마포구 셔츠룸 중에서도 프라이빗한 룸, 입장 전 퀄리티 체크, 그리고 이벤트 진행이 매끄러운 곳이 딱 한 군데 있음. (전화하면 안다.)</p>
+    </div>
+
+    <h3>1. 성우이벤트, 왜 마포인가?</h3>
+    <p>홍대 셔츠룸, 신촌 셔츠룸 다 가봤다. 근데 <strong>마포 셔츠룸</strong>이 다른 이유는? 접근성? 인테리어? 아니, <strong>성우이벤트의 디테일</strong>이다. 마포는 홍대입구, 합정, 상수동이랑 붙어있지만 진짜 프라이빗한 룸 시스템은 마포 쪽이 더 세련됨. 매니저들도 교육이 잘 되어 있고, 이벤트 진행이 루즈하지 않아.</p>
+    <p>내가 본 진짜 <strong>성우이벤트</strong>는 입장부터 분위기 메이킹, 게임, 그리고 마무리까지 한 편의 드라마처럼 굴러간다. 근데 그런 곳은 <strong>마포 셔츠룸 가격</strong>이 좀 쎄 보여도, 결국 만족도로 따지면 오히려 이득이다. 싼 게 비지떡이라는 말, 셔츠룸에서도 진리다.</p>
+
+    <h3>2. 마포 셔츠룸 가격, 진짜 가치 따져라</h3>
+    <p>“마포 셔츠룸 가격이 ㅈㄴ 비싸다”는 소리, 맞다. 근데 그 가격에 뭘 주는지 따져봐야지. 10만원 더 내고 <strong>성우급 이벤트</strong> + 프라이빗한 공간 + 매니저 퀄리티 보장 vs 5만원 싸게 가서 찝찝함 and 재미 없음. 고민할 가치 있냐?</p>
+    <ul class="number-list">
+      <li><strong>입장 전 미팅</strong> — 이거 하는 곳이 진짜다. 매니저 라인업을 직접 보고 선택할 수 있음.</li>
+      <li><strong>이벤트 진행</strong> — 단순 술게임 x, 감성 + 텐션 올려주는 성우이벤트 (내가 경험한 건 10분 만에 분위기 미친 수준)</li>
+      <li><strong>사후 케어</strong> — 끝나고 나서도 연락, 다음 예약 혜택, 멤버십 이런 거 챙겨주
+</body>
+</html>
