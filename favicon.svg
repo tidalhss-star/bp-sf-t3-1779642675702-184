@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <defs><linearGradient id="bgsf-t" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#0d47a1"/><stop offset="100%" stop-color="#311b92"/>
-  </linearGradient></defs>
-  <rect width="32" height="32" rx="6" fill="url(#bgsf-t)"/>
-  <rect x="3" y="3" width="26" height="26" rx="4" fill="rgba(13,71,161,0.9)" stroke="rgba(49,27,146,0.6)" stroke-width="2"/>
-  <text x="16" y="21" text-anchor="middle" fill="#fff" font-size="8" font-weight="700" font-family="system-ui">SF</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>마포 셔츠룸</title>
+  <rect width="64" height="64" rx="15" fill="hsl(172 67% 30%)"/>
+  <path d="M64 0v26L38 0Z" fill="hsl(264 68% 67%)" opacity="0.16"/>
+  <g transform="rotate(0 32 32)"><rect x="15" y="15" width="28" height="28" rx="6" fill="none" stroke="hsl(172 24% 96%)" stroke-width="7"/><rect x="25" y="25" width="24" height="24" rx="6" fill="hsl(264 68% 67%)"/></g>
 </svg>
